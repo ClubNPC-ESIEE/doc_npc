@@ -1,0 +1,25 @@
+site_name: NPC Documentation
+site_url: https://example.com/
+nav:
+  - Home: index.md
+  - Documentation: ./page/documentation.md
+  - Emulatorjs: ./page/emulatorjs.md
+  - Infrastructure Réseau: 
+    - Infrastructure: ./page/infrastructure_reseau/infra_reseau.md
+    - Réseau: ./page/infrastructure_reseau/reseau.md
+    - Système: ./page/infrastructure_reseau/systeme.md
+    - Cable et rangements: ./page/infrastructure_reseau/cables_et_rangements.md
+theme:
+  name: material
+  language: fr
+  favicon: './docs/img/logo/favicon.ico'
+  palette:
+    primary: pink
+extra:
+  homepage: https://example.com/
+markdown_extensions:
+  - attr_list
+  - footnotes
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
