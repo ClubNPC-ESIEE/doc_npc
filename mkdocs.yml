@@ -1,5 +1,5 @@
 site_name: NPC Documentation
-site_url: https://example.com/
+site_url: https://shevalier4444.github.io/doc_npc/
 nav:
   - Home: index.md
   - Documentation: ./page/documentation.md
@@ -16,7 +16,7 @@ theme:
   palette:
     primary: pink
 extra:
-  homepage: https://example.com/
+  homepage: https://shevalier4444.github.io/doc_npc/
 markdown_extensions:
   - attr_list
   - footnotes
