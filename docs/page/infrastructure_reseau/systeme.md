@@ -16,14 +16,43 @@ Donc on a inventé les VM, pour faire simple, faire tourner plusieurs OS sépar�
 __Type 1 :__ L’hyperviseur est directement installé sur l’hôte (bare metal), plus optimisé, utile pour les serveurs uniquement (quasiment).  
 Les grands noms : 
 
-* **Proxmox aka KVM (gratuit, linux based mais un peu plus complexe dés que tu 
-veux faire un truc fancy)**
-* VMware aka ESXI (le grand concurrent  de proxmox, mais payant, et mieux 	
-honnêtement)
-* Nutanix aka AHV (on l’utilise dans ma boite, c’est puissant mais c’est de la merde) 
-* Hyper-V (Virtualiser sur du Windows, ca marche bien askip mais j’ai  jamais essayé)
-* Citrix aka Xen (une solution bien overkill pour faire du BYOD très poussé, 
-intéressant mais pas pour nous honnêtement)
+<div class="grid cards" markdown>
+
+-   **Proxmox**
+
+    ---
+
+    **KVM *(gratuit, linux based mais un peu plus complexe dés que tu 
+veux faire un truc fancy)***
+
+-   **VMware**
+
+    ---
+
+    ESXI *(le grand concurrent  de proxmox, mais payant, et mieux 	
+honnêtement)*
+
+-   **Nutanix**
+
+    ---
+
+    AHV *(on l’utilise dans ma boite, c’est puissant mais c’est de la merde)*
+
+-   **Hyper-V**
+
+    ---
+
+    *(Virtualiser sur du Windows, ca marche bien askip mais j’ai  jamais essayé)*
+
+-   **Citrix**
+
+    ---
+
+    Xen *(une solution bien overkill pour faire du BYOD très poussé, 
+intéressant mais pas pour nous honnêtement)*
+
+</div>
+
 
 __Type 2 :__ Même chose qu’un type 1, mais host sur un OS complet, moins opti, sert surtout quand t’a besoin d’une linux en TP de C lol.  
 Les (2) grands noms :  
@@ -76,7 +105,7 @@ Proxmox propose des conteneurs  LXC (linux), qui fonctionnent exactement comme d
 
     - Tu décris ce que tu veux faire dans un `dockerfile`   
     	- De quoi tu pars (Une alpine (distro linux ultra légère) ou une ubuntu, c’est pas la même à l’usage)  
-    	-  Toutes les commandes pour installer / faire ce que tu veux  
+    	- Toutes les commandes pour installer / faire ce que tu veux  
 		- La conf réseau que tu veux   
 		- Les volumes que tu veux utiliser etc…  
 
