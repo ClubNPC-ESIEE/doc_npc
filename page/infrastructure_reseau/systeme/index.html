@@ -8,7 +8,7 @@
       
       
       
-        <link rel="canonical" href="https://example.com/page/infrastructure_reseau/systeme/">
+        <link rel="canonical" href="https://shevalier4444.github.io/doc_npc/page/infrastructure_reseau/systeme/">
       
       
         <link rel="prev" href="../reseau/">
@@ -88,7 +88,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="En-tête">
-    <a href="https://example.com/" title="NPC Documentation" class="md-header__button md-logo" aria-label="NPC Documentation" data-md-component="logo">
+    <a href="https://shevalier4444.github.io/doc_npc/" title="NPC Documentation" class="md-header__button md-logo" aria-label="NPC Documentation" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -183,7 +183,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="https://example.com/" title="NPC Documentation" class="md-nav__button md-logo" aria-label="NPC Documentation" data-md-component="logo">
+    <a href="https://shevalier4444.github.io/doc_npc/" title="NPC Documentation" class="md-nav__button md-logo" aria-label="NPC Documentation" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -624,16 +624,38 @@
 <h3 id="il-yen-a-2-grands-types">Il y’en a 2 grands “types” :</h3>
 <p><strong>Type 1 :</strong> L’hyperviseur est directement installé sur l’hôte (bare metal), plus optimisé, utile pour les serveurs uniquement (quasiment).<br />
 Les grands noms : </p>
+<div class="grid cards">
 <ul>
-<li><strong>Proxmox aka KVM (gratuit, linux based mais un peu plus complexe dés que tu 
-veux faire un truc fancy)</strong></li>
-<li>VMware aka ESXI (le grand concurrent  de proxmox, mais payant, et mieux <br />
-honnêtement)</li>
-<li>Nutanix aka AHV (on l’utilise dans ma boite, c’est puissant mais c’est de la merde) </li>
-<li>Hyper-V (Virtualiser sur du Windows, ca marche bien askip mais j’ai  jamais essayé)</li>
-<li>Citrix aka Xen (une solution bien overkill pour faire du BYOD très poussé, 
-intéressant mais pas pour nous honnêtement)</li>
+<li>
+<p><strong>Proxmox</strong></p>
+<hr />
+<p><strong>KVM <em>(gratuit, linux based mais un peu plus complexe dés que tu 
+veux faire un truc fancy)</em></strong></p>
+</li>
+<li>
+<p><strong>VMware</strong></p>
+<hr />
+<p>ESXI <em>(le grand concurrent  de proxmox, mais payant, et mieux <br />
+honnêtement)</em></p>
+</li>
+<li>
+<p><strong>Nutanix</strong></p>
+<hr />
+<p>AHV <em>(on l’utilise dans ma boite, c’est puissant mais c’est de la merde)</em></p>
+</li>
+<li>
+<p><strong>Hyper-V</strong></p>
+<hr />
+<p><em>(Virtualiser sur du Windows, ca marche bien askip mais j’ai  jamais essayé)</em></p>
+</li>
+<li>
+<p><strong>Citrix</strong></p>
+<hr />
+<p>Xen <em>(une solution bien overkill pour faire du BYOD très poussé, 
+intéressant mais pas pour nous honnêtement)</em></p>
+</li>
 </ul>
+</div>
 <p><strong>Type 2 :</strong> Même chose qu’un type 1, mais host sur un OS complet, moins opti, sert surtout quand t’a besoin d’une linux en TP de C lol.<br />
 Les (2) grands noms :  </p>
 <ul>
