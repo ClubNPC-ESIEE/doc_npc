@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="../img/emulatorjs/logo-light.png" alt="Logo" width="100" height="100"><br>
+    <img src="/img/emulatorjs/logo-light.png" alt="Logo" width="100" height="100"><br>
 </p>
 
 # Guide Utilisateur 
