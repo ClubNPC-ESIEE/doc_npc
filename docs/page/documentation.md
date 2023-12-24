@@ -95,3 +95,5 @@ Dans un premier temps, on doit générer la documentation en html avec la comman
 !!! warning "Attention"
     Il vous faudra peut-être supprimer certains dossiers de la racine comme `./img` ou `./page` pour que la commande `mv site/* .` marche correctement.
 Puis, vous pourrez envoyer les modifications à github grâce à un `push` sur la page `main` et aussi de mettre à jour le git avec la commande `git push origin main`.
+!!! info "Information"
+    Si sa ne c'est pas mis a jour automatiquement vous pouvez forcer la mise à jour dans les parametre du projet en changant la branche de github page de `main` a `none` puis save et enfin de `none` a `main` et save.
