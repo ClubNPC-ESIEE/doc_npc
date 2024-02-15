@@ -91,7 +91,7 @@ Pour lancer le docker on utilise la commande : `docker run --rm -it -p 8000:8000
 ## Hebergement avec github pages
 !!! info "Information"
     Ce tuto est une méthode fonctionnelle de le faire et simple, des modifications y seront sûrement apportées pour le rendre plus fonctionnel et efficace.
-Dans un premier temps, on doit générer la documentation en html avec la commande `mkdocs build` qui va générer la documentation dans le dossier `./site`. Puis, on va déplacer la documentation html vers le dossier `./` (racine) avec la commande `mv site/* .`.  
+Dans un premier temps, on doit générer la documentation en html avec la commande `mkdocs build` qui va générer la documentation dans le dossier `./site`. Puis, on va déplacer la documentation html vers le dossier `./` (racine) avec la commande `mv site/* .`  
 !!! warning "Attention"
     Il vous faudra peut-être supprimer certains dossiers de la racine comme `./img` ou `./page` pour que la commande `mv site/* .` marche correctement.
 Puis, vous pourrez envoyer les modifications à github grâce à un `push` sur la page `main` et aussi de mettre à jour le git avec la commande `git push origin main`.

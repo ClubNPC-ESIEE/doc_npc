@@ -663,12 +663,17 @@ Pour lancer le docker on utilise la commande : <code>docker run --rm -it -p 8000
 <p class="admonition-title">Information</p>
 <p>Ce tuto est une méthode fonctionnelle de le faire et simple, des modifications y seront sûrement apportées pour le rendre plus fonctionnel et efficace.</p>
 </div>
-<p>Dans un premier temps, on doit générer la documentation en html avec la commande <code>mkdocs build</code> qui va générer la documentation dans le dossier <code>./site</code>. Puis, on va déplacer la documentation html vers le dossier <code>./</code> (racine) avec la commande <code>mv site/* .</code>.  </p>
+<p>Dans un premier temps, on doit générer la documentation en html avec la commande <code>mkdocs build</code> qui va générer la documentation dans le dossier <code>./site</code>. Puis, on va déplacer la documentation html vers le dossier <code>./</code> (racine) avec la commande <code>mv site/* .</code>  </p>
 <div class="admonition warning">
 <p class="admonition-title">Attention</p>
 <p>Il vous faudra peut-être supprimer certains dossiers de la racine comme <code>./img</code> ou <code>./page</code> pour que la commande <code>mv site/* .</code> marche correctement.</p>
 </div>
 <p>Puis, vous pourrez envoyer les modifications à github grâce à un <code>push</code> sur la page <code>main</code> et aussi de mettre à jour le git avec la commande <code>git push origin main</code>.</p>
+<div class="admonition info">
+<p class="admonition-title">Information</p>
+<p>Si sa ne c'est pas mis a jour automatiquement vous pouvez forcer la mise à jour dans les parametre du projet en changant la branche de github page de <code>main</code> a <code>none</code> puis save et enfin de <code>none</code> a <code>main</code> et save. <br />
+<em>A noter que sa se fait tout seul c'est juste long</em></p>
+</div>
 
 
 
