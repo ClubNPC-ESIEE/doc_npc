@@ -118,3 +118,6 @@ Donnez-lui un nom et la durée de validation de la connexion. Remettez le **Subd
 Faites **next**, donnez un nom à votre **Policy**. Ici, on va créer une authentification par mail, ainsi, on va choisir **Email** dans **Configure rules** et dans **value**, on va mettre tous les mails autorisés.
 
 Faites **next**, et enfin **add application**. 
+
+!!! danger "Attention"
+    La sécurité fournie par Cloudflare et une sécurité qui utilise la méthode du **man-in-the-middle**, c'est-à-dire que Cloudflare va intercepter les requêtes et les réponses entre le client et le serveur.
