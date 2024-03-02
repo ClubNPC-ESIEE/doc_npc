@@ -1,38 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://shevalier4444.github.io/doc_npc/</loc>
-         <lastmod>2024-02-15</lastmod>
+         <loc>https://clubnpc-esiee.github.io/doc_npc/</loc>
+         <lastmod>2024-03-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://shevalier4444.github.io/doc_npc/page/documentation/</loc>
-         <lastmod>2024-02-15</lastmod>
+         <loc>https://clubnpc-esiee.github.io/doc_npc/page/documentation/</loc>
+         <lastmod>2024-03-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://shevalier4444.github.io/doc_npc/page/emulatorjs/</loc>
-         <lastmod>2024-02-15</lastmod>
+         <loc>https://clubnpc-esiee.github.io/doc_npc/page/emulatorjs/</loc>
+         <lastmod>2024-03-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://shevalier4444.github.io/doc_npc/page/infrastructure_reseau/cables_et_rangements/</loc>
-         <lastmod>2024-02-15</lastmod>
+         <loc>https://clubnpc-esiee.github.io/doc_npc/page/infrastructure_reseau/cables_et_rangements/</loc>
+         <lastmod>2024-03-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://shevalier4444.github.io/doc_npc/page/infrastructure_reseau/infra_reseau/</loc>
-         <lastmod>2024-02-15</lastmod>
+         <loc>https://clubnpc-esiee.github.io/doc_npc/page/infrastructure_reseau/reseau/ipam/</loc>
+         <lastmod>2024-03-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://shevalier4444.github.io/doc_npc/page/infrastructure_reseau/reseau/</loc>
-         <lastmod>2024-02-15</lastmod>
+         <loc>https://clubnpc-esiee.github.io/doc_npc/page/infrastructure_reseau/reseau/pfsense/</loc>
+         <lastmod>2024-03-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://shevalier4444.github.io/doc_npc/page/infrastructure_reseau/systeme/</loc>
-         <lastmod>2024-02-15</lastmod>
+         <loc>https://clubnpc-esiee.github.io/doc_npc/page/infrastructure_reseau/reseau/pihole/</loc>
+         <lastmod>2024-03-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://clubnpc-esiee.github.io/doc_npc/page/infrastructure_reseau/reseau/switching/</loc>
+         <lastmod>2024-03-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://clubnpc-esiee.github.io/doc_npc/page/infrastructure_reseau/reseau/tunnel_cloudflare/</loc>
+         <lastmod>2024-03-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://clubnpc-esiee.github.io/doc_npc/page/infrastructure_reseau/systeme/active_directory/</loc>
+         <lastmod>2024-03-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://clubnpc-esiee.github.io/doc_npc/page/infrastructure_reseau/systeme/conteneurisation/</loc>
+         <lastmod>2024-03-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://clubnpc-esiee.github.io/doc_npc/page/infrastructure_reseau/systeme/grafana/</loc>
+         <lastmod>2024-03-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://clubnpc-esiee.github.io/doc_npc/page/infrastructure_reseau/systeme/prometheus/</loc>
+         <lastmod>2024-03-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://clubnpc-esiee.github.io/doc_npc/page/infrastructure_reseau/systeme/pufferpanel/</loc>
+         <lastmod>2024-03-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://clubnpc-esiee.github.io/doc_npc/page/infrastructure_reseau/systeme/virtualisation/</loc>
+         <lastmod>2024-03-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://clubnpc-esiee.github.io/doc_npc/page/infrastructure_reseau/systeme/wordpress/</loc>
+         <lastmod>2024-03-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>

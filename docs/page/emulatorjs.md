@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="/img/emulatorjs/logo-light.png" alt="Logo" width="100" height="100"><br>
+    <img src="https://raw.githubusercontent.com/runtipi/runtipi-appstore/master/apps/emulatorjs/metadata/logo.jpg" alt="Logo" width="200" height="200"><br>
 </p>
 
 # Guide Utilisateur 
@@ -46,6 +46,7 @@ Pour naviguer dans l’émulateur, vous pouvez utiliser les flèche directionnel
 ## Gestion des sauvegardes
 Vous pouvez gérer les documents générés par votre utilisation des émulateurs depuis la page, de l'[étape 3](#etape3__) de même que vos sauvegardes. Accéder au bouton de récupération/envoie de donnée en haut à droite de la page.
 ![save](../img/emulatorjs/save.png){ width="500" }
+
 1. Permet de récupérer les données stockées sur le serveur pour votre compte.
 2. Permet d’envoyer au serveur vos données pour qu’elle y soit stockée.
 

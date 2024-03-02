@@ -1,22 +1,43 @@
 site_name: NPC Documentation
-site_url: https://shevalier4444.github.io/doc_npc/
+site_url: https://clubnpc-esiee.github.io/doc_npc/
 nav:
   - Home: index.md
   - Documentation: ./page/documentation.md
   - Emulatorjs: ./page/emulatorjs.md
-  - Infrastructure Réseau: 
-    - Infrastructure: ./page/infrastructure_reseau/infra_reseau.md
-    - Réseau: ./page/infrastructure_reseau/reseau.md
-    - Système: ./page/infrastructure_reseau/systeme.md
+  - Infrastructure Réseau:
     - Cable et rangements: ./page/infrastructure_reseau/cables_et_rangements.md
+    - Réseau: 
+      - Pfsense: ./page/infrastructure_reseau/reseau/pfsense.md
+      - Pi-hole: ./page/infrastructure_reseau/reseau/pihole.md
+      - ipam: ./page/infrastructure_reseau/reseau/ipam.md
+      - Switching: ./page/infrastructure_reseau/reseau/switching.md
+      - Tunnel (Cloudflare): ./page/infrastructure_reseau/reseau/tunnel_cloudflare.md
+    - Système:
+      - Active Directory: ./page/infrastructure_reseau/systeme/active_directory.md
+      - Conteneurisation: ./page/infrastructure_reseau/systeme/conteneurisation.md
+      - Grafana: ./page/infrastructure_reseau/systeme/grafana.md
+      - Prometheus: ./page/infrastructure_reseau/systeme/prometheus.md
+      - PufferPanel: ./page/infrastructure_reseau/systeme/pufferpanel.md
+      - Virtualisation: ./page/infrastructure_reseau/systeme/virtualisation.md
+      - Wordpress: ./page/infrastructure_reseau/systeme/wordpress.md
 theme:
   name: material
   language: fr
   favicon: './docs/img/logo/favicon.ico'
+  logo: './img/logo/Logo.png'
   palette:
     primary: pink
+  features:
+    - navigation.footer
 extra:
-  homepage: https://shevalier4444.github.io/doc_npc/
+  homepage: https://clubnpc-esiee.github.io/doc_npc/
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/ClubNPC-ESIEE
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/npc_esiee?igsh=MTVnNXM4N2U1NGwwbw==
+    - icon: fontawesome/brands/discord
+      link:  https://github.com/ClubNPC-ESIEE
 markdown_extensions:
   - attr_list
   - footnotes
