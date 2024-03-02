@@ -24,7 +24,7 @@ Une fois l'installation fini, vous pouvez accéder a l'interface de Grafana avec
 
 ### Utilisation
 
-#### Configuration avec [Prometheus](#prometheus)
+#### Configuration avec [Prometheus](./prometheus.md)
 
 #### Création de Dashboard
 On va dans notre cas importer le dashboard `14510`, pour avoir tout se qui nous faut.

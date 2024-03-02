@@ -29,6 +29,7 @@ theme:
     primary: pink
   features:
     - navigation.footer
+    - navigation.tabs
 extra:
   homepage: https://clubnpc-esiee.github.io/doc_npc/
   social:

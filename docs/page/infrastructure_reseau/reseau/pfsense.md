@@ -1,3 +1,5 @@
+![pfsence](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/PfSense_logo.png/1200px-PfSense_logo.png){ align=right width="200" }
+
 > Pfsense est une basé sur freeBSD (distroLinux).
 > C’est un OS à installer sur un ordinateur bidon ou à virtualiser (attention à bien avoir 2 ports Ethernet). 
 
