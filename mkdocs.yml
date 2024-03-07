@@ -20,6 +20,7 @@ nav:
       - PufferPanel: ./page/infrastructure_reseau/systeme/pufferpanel.md
       - Virtualisation: ./page/infrastructure_reseau/systeme/virtualisation.md
       - Wordpress: ./page/infrastructure_reseau/systeme/wordpress.md
+      - LinuxGMS: ./page/infrastructure_reseau/systeme/linuxGMS.md
 theme:
   name: material
   language: fr
